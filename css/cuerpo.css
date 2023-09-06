@@ -1,0 +1,15 @@
+section {
+    float: left;
+    width: 60%;
+    margin: 5% 5%;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    margin: 5% 5%;
+    background-color: blueviolets;
+}
+section > img {
+    float: left;
+}

@@ -1,0 +1,9 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+    font-size: 15px;
+    background-image: url("/imagenes/fondo.png"); /* Reemplaza "ruta-de-tu-imagen.jpg" con la ruta real de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo según tus necesidades */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed; /* Opcional: fija la imagen de fondo para que no se desplace con el contenido */
+    background-color: rgba(255, 255, 255, 0.2); /* Cambia el último valor (0.5) para ajustar la opacidad */
+}

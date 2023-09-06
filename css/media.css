@@ -1,0 +1,15 @@
+@media ( max-width: 1024px){
+    body {
+        background-color: yellow;
+    }
+}
+@media (max-width: 800px){
+    body{
+        background-color:  pink;
+    }
+}
+@media (max-width: 600px){
+    body{
+        background-color: saddlebrown;
+    };
+}

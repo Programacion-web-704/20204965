@@ -1,0 +1,28 @@
+nav {
+    width: 100%;
+    overflow: hidden; 
+    background-color:black;
+}
+nav > ul {
+    list-style-type: none; /*No quiero viñetas*/
+}
+
+nav > ul > li > a{
+    float: left;
+    color: white;
+    display: block;
+    padding: 5px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+/*	seudo clases */
+nav ul a:focus {
+    color: red;
+    border-color: yellowgreen;
+}
+nav ul a:hover {
+    color: yellow;
+    border-color: white;
+}
