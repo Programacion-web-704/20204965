@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title>...:EJEMPLO DE JS CON FORMULARIO:....</title>
+        <link rel="stylesheet" href="./css/parafrom.css"/>
+    </head>
+    <body>
+        <h1>CALCULADORA BASICA</h1>
+        <form action="#" method="GET">
+            <p>
+                Valor1: <input type ="text" name ="v1" id = "id1" />
+            </p>
+            <p>
+                Valor2: <input type ="text" name ="v2" id = "id2" />
+            </p>
+            <input type = "button" value = "SUMAR" onclick="sumar();">
+            <input type = "button" value = "RESTAR" onclick="restar();">
+            <input type = "button" value = "DIVIDIR" onclick="dividir();">
+            <input type = "button" value = "MULTIPLICAR" onclick="mult();">
+            <input type="reset" value = "LIMPIAR">
+        </form>
+        <p>
+            <h2>La respuesta es </h2>
+            <div id = "rpta"></div>
+        </p>
+
+
+
+        <script src="./js/suma.js"></script> <!--Se puede hacer el script en el head o antes de cerrar el body-->
+    </body>
+
+</html>
